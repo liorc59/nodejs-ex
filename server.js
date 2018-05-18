@@ -92,8 +92,8 @@ app.get('/pagecount', function (req, res) {
   }
 });
 
-app.get('/seyhey', function (req, res) {
-	res.send('hello');
+app.get('/sayhey', function (req, res) {
+	res.send('hello from JS');
 });
 
 
